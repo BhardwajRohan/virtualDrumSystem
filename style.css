@@ -118,5 +118,25 @@ header h1{
     background-repeat: no-repeat;
 }
 
-
+@media screen and (max-width : 600px) {
+    #mykit{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       margin-top: 15rem;
+        
+    }
+    .kit{
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2rem;
+        color: black;
+        text-align: center;
+        padding: 20px 0px;
+        margin-top: 10px;
+    }
+    
+}
 
